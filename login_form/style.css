@@ -1,0 +1,89 @@
+body {
+    background-color: #f8f9fa;
+    font-family: 'Mulish', sans-serif;
+    box-sizing: border-box;
+    background-image: url("./img/Group\ 4.png");
+}
+
+.logo {
+    position: absolute;
+    width: 176.48px;
+    height: 52.94px;
+    left: 39.81px;
+    top: 77.15px;
+}
+
+.form-container {
+    max-width: 450px;
+    margin: 50px auto;
+    padding: 92px 66px;
+    background-color: #ffffff;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.form-container h2 {
+    font-size: 22px;
+    font-weight: bold;
+    color: #333333;
+}
+
+.form-container label {
+    font-size: 12px;
+    font-weight: 600;
+    color: #333333;
+}
+
+.form-container .form-control {
+    font-size: 17px;
+    font-weight: 600;
+    color: #333333;
+}
+
+
+  .pass {
+    position: relative;
+}
+
+.pass .form-control {
+    padding-right: 40px; /* Add padding to make space for the eye icon */
+}
+
+.pass .toggle-password {
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    cursor: pointer;
+}
+
+
+  
+
+.btn-primary {
+    background-color: #0067FF;
+    border-color: #0067FF;
+}
+
+.btn-primary:hover {
+    background-color: #0056d2;
+    border-color: #0056d2;
+}
+
+.form-text a {
+    color: #0067FF;
+}
+
+.form-text a:hover {
+    text-decoration: underline;
+}
+
+.btn-secondary {
+    background-color: #0067FF;
+    border-color: #0067FF;
+}
+
+.btn-secondary:hover {
+    background-color: #0056d2;
+    border-color: #0056d2;
+}

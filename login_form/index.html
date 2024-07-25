@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOTCHAT Login page</title>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
+
+</head>
+<body>
+    <div class="form-container">
+        <div >
+            <img class="logo" src="./img/Dotchat dashboard Logo.png" alt="logo">
+        </div>
+        <h2>Login to your account</h2>
+        <form>
+            <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" class="form-control" id="email" placeholder="Please enter your email">
+            </div>
+            <div class="form-group">
+                <label for="password">Password</label>
+                 <section class="pass">
+                <input type="password" class="form-control" id="password" placeholder="Enter password">
+                <i class="toggle-password" id="togglePassword">👁️</i>
+            </section>
+            </div>
+            <button type="button" class="btn btn-primary btn-block">Request OTP</button>
+            <small class="form-text text-muted">
+                <a href="#">Forgot Password?</a>
+            </small>
+            <div class="form-group mt-3">
+                <label for="otp">OTP</label>
+                <input type="text" class="form-control" id="otp" placeholder="Enter OTP sent to your email">
+            </div>
+            <button type="submit" class="btn btn-secondary btn-block">Login</button>
+        </form>
+    </div>
+    
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="main.js"></script>
+
+</body>
+</html>
